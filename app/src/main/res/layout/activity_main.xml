@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myapplication.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:gravity="center"
+        android:textSize="48dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="24dp"/>
+    <Button
+       android:id="@+id/where_i_am"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHERE I AM?"
+        android:textSize="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:padding="24dp"
+        android:layout_margin="14dp"
+        />
+    <Button
+        android:id="@+id/badass_places"
+        android:layout_margin="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BADASS PLACES"
+        android:textSize="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/tracking_eye"
+        android:layout_margin="14dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACKING EYE"
+        android:textSize="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+
+</LinearLayout>

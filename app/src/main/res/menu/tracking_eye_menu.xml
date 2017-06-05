@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/send_request"
+        android:title="Send Request"/>
+    <item
+        android:id="@+id/receive_request"
+        android:title="Receive Request"/>
+
+
+</menu>
